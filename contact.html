@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+    <link rel="stylesheet" href="caontact_styles.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="Navbar.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html"> Sobre mim</a></li>
+          <li><a href="contact.html">Entre em contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Entre em Contato</h2>
+        <p>
+          Se você deseja entrar em contato comigo, preencha o formulário abaixo
+          e eu responderei o mais breve possível.
+        </p>
+
+        <form action="#" method="post" class="contact-form">
+          <label for="name">Nome:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="Seu nome"
+          />
+
+          <label for="email">E-mail:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="seuemail@exemplo.com"
+          />
+
+          <label for="message">Mensagem:</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="6"
+            required
+            placeholder="Escreva sua mensagem aqui..."
+          ></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Danilo. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
